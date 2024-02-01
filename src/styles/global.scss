@@ -1,0 +1,17 @@
+@import "./makedown";
+html,body {
+  margin: 0;
+  height:100%;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+li {
+  list-style: none;
+}
+
+#root {
+  height: 100%;
+}

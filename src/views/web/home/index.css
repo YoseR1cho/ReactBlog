@@ -1,0 +1,68 @@
+.ant-spin-nested-loading {
+  flex: 1; }
+
+.app-home {
+  flex: auto;
+  min-height: 100%;
+  margin: auto; }
+  .app-home .app-List {
+    width: calc(100% - 292px); }
+  .app-home .appList_item {
+    position: relative;
+    border: 1px solid #ebedf0;
+    padding: 16px 24px;
+    margin-bottom: 10px;
+    transition: all 0.2s linear; }
+    .app-home .appList_item:hover {
+      background: #effbff;
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+      transform: translate3d(0, -5px 0); }
+    .app-home .appList_item .title {
+      color: #394d69;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.2;
+      cursor: pointer; }
+      .app-home .appList_item .title:hover {
+        color: #48b2ff; }
+    .app-home .appList_item .article-detail {
+      cursor: pointer;
+      max-height: 260px;
+      overflow: hidden;
+      margin-bottom: 15px; }
+    .app-home .appList_item .list-item-others {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+      margin-top: 10px;
+      color: rgba(0, 0, 0, 0.5); }
+      .app-home .appList_item .list-item-others a {
+        color: inherit; }
+      .app-home .appList_item .list-item-others div {
+        margin-right: 2rem; }
+
+.tag_List {
+  text-align: center;
+  width: 70%;
+  margin-top: 10px; }
+
+.ant-list .ant-spin-nested-loading {
+  margin: 20px 20px; }
+.ant-list .ant-list-pagination {
+  margin-bottom: 50px; }
+
+.ant-list-item-meta {
+  margin-bottom: 20px; }
+
+.ant-list-item-action {
+  padding-bottom: 20px; }
+
+.ant-menu-item {
+  width: 100px;
+  font-size: 15px; }
+  .ant-menu-item .ant-menu-item-icon {
+    padding-left: 3px;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=index.css.map */

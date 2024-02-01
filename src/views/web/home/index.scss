@@ -1,0 +1,88 @@
+.ant-spin-nested-loading {
+  flex: 1;
+}
+
+.app-home {
+  flex:auto;
+  min-height: 100%;
+  margin: auto;
+  $previewWidth:292px;
+  .app-List{
+    width: calc(100% - #{$previewWidth});
+  }
+  .appList_item {
+    position: relative;
+    border: 1px solid #ebedf0;
+    padding: 16px 24px;
+    margin-bottom: 10px;
+    transition: all 0.2s linear;
+    &:hover {
+      background: #effbff;
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+      transform: translate3d(0, -5px 0);
+    }
+    .title {
+      color: #394d69;
+      font-size: 1.4rem;
+      font-weight: 600;
+      line-height: 1.2;
+      cursor: pointer;
+      &:hover {
+        color: #48b2ff;
+      }
+    }
+    .article-detail {
+      cursor: pointer;
+      max-height: 260px;
+      overflow: hidden;
+      margin-bottom: 15px;
+    }
+    .list-item-others {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      vertical-align: middle;
+      margin-top: 10px;
+      color: rgba(0, 0, 0, 0.5);
+      a {
+        color: inherit;
+      }
+      div {
+        margin-right: 2rem;
+      }
+    }
+  }
+}
+
+.tag_List {
+  text-align: center;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.ant-list {
+  .ant-spin-nested-loading {
+    margin: 20px 20px ;
+  }
+
+  .ant-list-pagination {
+    margin-bottom: 50px;
+  }
+}
+
+.ant-list-item-meta {
+  margin-bottom: 20px;
+}
+
+.ant-list-item-action {
+  padding-bottom: 20px;
+}
+
+.ant-menu-item {
+  width: 100px;
+  font-size: 15px;
+  .ant-menu-item-icon {
+    padding-left: 3px;
+    margin-right: 10px;
+  }
+}
